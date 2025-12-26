@@ -65,12 +65,7 @@ export default function EmployeeDashboard() {
           </Card>
         </Col>
 
-        {/* Completed */}
-        <Col xs={24} sm={12} md={12} lg={6} xl={6}>
-          <Card title="Completed Tasks" bordered style={{ textAlign: "center" }}>
-            <h1>{summary.completed}</h1>
-          </Card>
-        </Col>
+        
       </Row>
     </div>
   );
