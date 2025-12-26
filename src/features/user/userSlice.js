@@ -10,7 +10,7 @@ export const fetchAllUsers = createAsyncThunk(
     try {
       const token = localStorage.getItem('token');
 
-      const res = await axios.get('http://localhost:5000/api/users', {
+      const res = await axios.get('https://project-intellentech-backend.onrender.com/api/users', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
